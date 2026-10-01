@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "Microsoft YaHei", serif;
+            font-family: "Microsoft YaHei", system-ui, sans-serif;
         }
         body {
             background: linear-gradient(145deg, #0f0f1e, #1b1b35);
@@ -113,7 +113,7 @@
     <div class="card">
         <div class="invite-box" id="inviteBox">
             <h1>安当·高堰铎，请加入我们</h1>
-            <p class="tip">剧本杀车队等候你的到来<br>一场悬疑故事即将开启</p >
+            <p class="tip">剧本杀车队等候你的到来<br>一场悬疑故事即将开启</p>
             <div class="btn-group">
                 <button id="joinBtn">加入</button>
                 <button id="refuseBtn" disabled>不加入</button>
@@ -121,10 +121,9 @@
         </div>
         <div class="success-box" id="successBox">
             <h2>加入成功！欢迎加入🎉</h2>
-            <p>剧本杀车队已就位，期待一起盘本，揭开故事真相！</p >
+            <p>剧本杀车队已就位，期待一起盘本，揭开故事真相！</p>
         </div>
     </div>
-
     <script>
         const joinBtn = document.getElementById('joinBtn');
         const inviteBox = document.getElementById('inviteBox');
